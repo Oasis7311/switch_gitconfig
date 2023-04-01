@@ -8,8 +8,6 @@ Switch Config is a command-line tool built with Go that allows you to switch you
 
 ### Installation
 
-To install Switch Config, follow these steps:
-
 1. Make sure that the Go toolchain is installed on your machine.
 
 2. Open a terminal window and run the following command to install the tool:
@@ -28,11 +26,9 @@ To install Switch Config, follow these steps:
 
 ## 中文
 
-Switch Config 是使用 Go 编写的命令行工具，允许您通过指定 Git 配置文件的路径来切换全局 Git 配置。这个工具可以通过使用 Go 工具链和 `go install` 命令轻松安装。
+Switch Config 是使用 Go 编写的命令行工具，允许您通过指定 Git 配置文件的路径来切换全局 Git 配置。
 
 ### 安装方法
-
-要安装 Switch Config，请按照以下步骤操作：
 
 1. 确保 Go 工具链已经在您的机器上安装好。
 
@@ -42,10 +38,10 @@ Switch Config 是使用 Go 编写的命令行工具，允许您通过指定 Git 
    go install github.com/Oasis7311/switch_gitconfig@latest
    ```
 
-3. 安装完成后，您可以通过输入以下命令来使用 Switch Config 工具：
+3. 安装完成后，输入以下命令来使用 Switch Config 工具：
 
    ```
    switch_config -f /path/to/your/gitconfig
    ```
 
-   注意，Git 配置文件的路径应该是绝对路径。
+   注意，配置文件的路径应该是绝对路径。
