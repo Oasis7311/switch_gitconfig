@@ -15,7 +15,7 @@ To install Switch Config, follow these steps:
 2. Open a terminal window and run the following command to install the tool:
 
    ```
-   go install github.com/Oasis7311/switch_config@latest
+   go install github.com/Oasis7311/switch_gitconfig@latest
    ```
 
 3. Once the installation is complete, you can use the tool by typing the following command, followed by the path to the Git config file you wish to use:
@@ -39,7 +39,7 @@ Switch Config 是使用 Go 编写的命令行工具，允许您通过指定 Git 
 2. 打开终端，然后输入以下命令来安装 Switch Config：
 
    ```
-   go install github.com/Oasis7311/switch_config@latest
+   go install github.com/Oasis7311/switch_gitconfig@latest
    ```
 
 3. 安装完成后，您可以通过输入以下命令来使用 Switch Config 工具：
